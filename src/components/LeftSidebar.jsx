@@ -4,12 +4,12 @@ import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 
 const LeftSidebar = () => {
     return (
-        <div className='justify-start pt-3 w-80 border-r-2 h-screen h-full'>
+        <div className='justify-start pt-3 w-80 border-r-2 h-screen h-full '>
             <div className='flex ml-7 font-semibold text-gray-900 text-sm mt-8'>
                 Top Repositories
                 <button className='bg-green-700 text-white rounded ml-20 text-sm font-semibold items-center justify-center w-16 flex'> <AddCircleOutlineIcon /> New</button>
             </div>
-            <div className='flex flex-col border rounded w-64 mt-2 h-9 bg-slate-50 ml-7'>
+            <div className='flex flex-col border rounded w-64 mt-2 h-9 bg-slate-50 ml-7 mr-5'>
                 <input type="text" placeholder='Find a repository...' className='bg-slate-50 p-1' />
             </div>
             <div className='flex cursor-pointer hover:underline'>
@@ -66,7 +66,7 @@ const LeftSidebar = () => {
                 <div className='font-semibold text-gray-900 text-sm flex justify-start ml-7 mt-6'>
                     Recent activity
                 </div>
-                <div className='border border-dashed text-xs text-gray-500 h-14 ml-7 p-3 mt-2 rounded'>
+                <div className='border border-dashed text-xs text-gray-500 h-14 ml-7 p-3 mt-2 rounded text-left mr-4'>
                 When you take actions across GitHub, we’ll provide links to that activity here.
                 </div>
             </div>

@@ -4,7 +4,7 @@ import RepoCard from './utils/RepoCard';
 
 const Middle = () => {
     return (
-        <div className='m-5 w-1/2'>
+        <div className='m-5 w-2/3'>
             <div className='flex justify-between '>
                 <div className=' font-semibold text-xl'>
                     Home
